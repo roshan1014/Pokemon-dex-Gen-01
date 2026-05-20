@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins";
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+}
+
+.left {
+  height: 100%;
+  width: 60%;
+  background-color: #fbc50b;
+  border-radius: 20px 0px 0px 20px;
+  position: relative;
+}
+
+.logo {
+  padding: 20px 0px 0px 20px;
+}
+
+.hero .left .logo img {
+  width: 180px;
+}
+
+.hero .left .content {
+
+  position: absolute;
+  width: 40%;
+  top: 30%;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* height: 30%; */
+  /* background-color: aqua; */
+}
+
+.hero .left .content .pock {
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: 13px;
+}
+
+.hero .left .content .heading{
+  font-size: 6.5rem;
+  /* padding: 0%; */
+}
+
+.hero .left .content p{
+  font-size: 15px;
+  line-height: 30px;
+  white-space: 3px;
+  font-weight: 400;
+}
+
+.hero .left .content .counter{
+  display: flex ;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hero .left .content .counter  .horizontal{
+  width: 28px;
+  height: 1px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.hero .left .content .counter  .num{
+  margin-left: 18px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.left .pokoball {
+  position: absolute;
+  bottom: -1.5%;
+  left: 2%;
+}
+
+.left .pokoball img{
+  width: 200px;
+}
+
+.right{
+  height: 100%;
+  width: 40%;
+  border-radius: 0px 20px 20px 0px;
+  background-color: #fbe8b5;
+  /* position: relative; */
+}
+.right .menu {
+  position: absolute;
+  right: 0%;
+  padding: 20px 40px 0px 0px;
+}
+
+.right .menu .ri-menu-line{
+  font-size: 35px;
+}
+
+.right .pockemonimg img{
+  width: 600px;
+  position: absolute;
+  left: 44%;
+  top:10%;
+}
+
+.right .sliderdot{
+  position: absolute;
+  top: 40%; 
+  right: 0%;
+  padding: 20px 40px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right .sliderdot .dot1{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.right .sliderdot .dot{
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #FAC10D;
+}
